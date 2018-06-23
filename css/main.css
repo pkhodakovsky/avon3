@@ -278,6 +278,17 @@ nav ul li:nth-child(6) {
     margin: 15px auto 0;
     border-bottom: 2px solid #df1d87;
 }
+.section_become_representative ul li {
+	position: relative;
+}
+.section_become_representative ul li:before {
+	content: "✓";
+	margin-right: 5px;
+	font-family: SegoeUISymbol;
+}
+.section_become_representative ul li b span {
+	color: #df1d87;
+}
 .advantages {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -320,6 +331,9 @@ nav ul li:nth-child(6) {
 .sha_3 {
 	grid-column: 1 / 3;
 }
+.sha_3 img {
+	width: 540px;
+}
 .shares h3,
 .shares p {
 	margin-bottom: 20px;
@@ -340,6 +354,7 @@ nav ul li:nth-child(6) {
 }
 .rep img {
 	max-width: 100%;
+	width: 1000px;
 }
 .section_become_representative ul {
 	padding: 0;
